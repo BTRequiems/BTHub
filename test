@@ -1,0 +1,3 @@
+local Window = OrionLib:MakeWindow{ Name = "Cheese Escape" }
+local Tab = Window:MakeTab{ Name = "Cheese Escape", Icon = "rbxassetid://4483345998", PremiumOnly = false }
+Tab:AddButton{ Name = "Gain cheese", Callback = function() game.ReplicatedStorage.AddCheese:FireServer() game.ReplicatedStorage.AddCheese:FireServer() game.ReplicatedStorage.AddCheese:FireServer() game.ReplicatedStorage.AddCheese:FireServer() game.ReplicatedStorage.AddCheese:FireServer() game.ReplicatedStorage.AddCheese:FireServer() game.ReplicatedStorage.AddCheese:FireServer() game.ReplicatedStorage.AddCheese:FireServer() game.ReplicatedStorage.AddCheese:FireServer() }
